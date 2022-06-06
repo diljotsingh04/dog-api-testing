@@ -1,21 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dog Random images</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
-    <div class="container" id="cont">
-        <div class="imag">
-            <img src="" alt="Loading...">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Diljot's Website</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+          </div>
         </div>
-        <!-- <div class="button">
-            <a href="#">Next img</a>
-        </div> -->
+      </nav>
+
+    <!-- custom html -->
+    <div class="container" id="cont">
+        <h1>Fetch unlimited dog images -- By:- diljot_singh</h1>
+        <div class="imag">
+            <!-- <img src="" alt="Loading..." id="dynamicImg"> -->
+            <img src="" alt="Loading..." id="dynamicImg">
+        </div>
+        <div class="button" id="btn">
+            <button onclick="nextImg()" id="btbn">Next Image</button>
+            <button onclick="copyUrl()" id="url">Get URL</button>
+        </div>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 <script src="index.js"></script>
+
 </html>
