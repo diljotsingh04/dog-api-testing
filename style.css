@@ -30,7 +30,7 @@ button{
 
 @media (max-width: 807px ) {
     body{
-        background-color: rgb(255, 21, 21);
+        background-color: lightgreen;
     }
     img{
         height: 257px;
@@ -52,7 +52,7 @@ button{
 
 @media (max-width: 456px ) {
     body{
-        background-color: rgb(21, 115, 255);
+        background-color: lightgreen;
     }
     img{
         height: 186px;
