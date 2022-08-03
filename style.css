@@ -61,3 +61,7 @@ button{
         font-size: 12px;
     }
 }
+.filterItems{
+    width: 20%;
+    margin-bottom: 8px;
+}
